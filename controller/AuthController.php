@@ -1,6 +1,9 @@
 <?php
 
-class User{
+class AuthContoller{
+    public function showLogin(){
+        require 'view/auth/login.php';
+    }
     public function register(){
         
     }
